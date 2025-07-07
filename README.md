@@ -80,7 +80,7 @@ docker push gcr.io/YOUR_PROJECT_ID/vless-ws
 gcloud run deploy vless-ws \
   --image gcr.io/YOUR_PROJECT_ID/vless-ws \
   --platform managed \
-  --region us-central1 \
+  --region asia-southeast1 \
   --allow-unauthenticated \
   --port 8080
 ```
